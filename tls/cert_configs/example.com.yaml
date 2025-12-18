@@ -1,0 +1,13 @@
+certificate:
+  common_name: abc.com
+  organization: MyCompany
+  organizational_unit: Platform
+  country: US
+  state: California
+  locality: SanFrancisco
+
+  validity_days: 1
+  renew_if_expires_in_days: 0.5
+
+  key:
+    size: 2048
