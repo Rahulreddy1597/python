@@ -51,7 +51,7 @@ def load_cert_cfg(path):
 
     return cert
 
-# 
+# cert generation
 def generate_cert(c, out_dir):
     key = rsa.generate_private_key(
         public_exponent=65537,
@@ -126,9 +126,8 @@ def reconcile(cfg_path):
         print(f"[{c['common_name']}] still valid ({days_left:.2f} days left)")
 
 
-# ======================
+
 # Entry point
-# ======================
 def main():
     os.makedirs(CERTS_DIR, exist_ok=True)
 
