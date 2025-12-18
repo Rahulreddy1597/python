@@ -31,7 +31,3 @@ The objective of this project is to create a **local, web-based TLS certificate 
 * Provides a clear version-controlled history of all certificates.
 * Allows rapid creation and renewal of multiple TLS certificates.
 * Serves as a foundation for a more advanced certificate management system.
-
----
-
-This project is ideal for developers, DevOps engineers, or small teams who need to manage multiple self-signed TLS certificates locally with a simple GitOps-style workflow.
