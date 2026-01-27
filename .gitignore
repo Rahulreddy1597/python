@@ -19,3 +19,5 @@ Thumbs.db
 
 # Generated TLS certs (DO NOT COMMIT)
 tls/certs/
+
+EDA/car_listings/*.csv
